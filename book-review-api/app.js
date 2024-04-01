@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cors());
 // Connect to MongoDB
 const uri =
-  "mongodb+srv://thumarraj999:Raj7777@cluster0.hbxnui7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  '<yout connection string with username and password>';
 mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("Connected to MongoDB"))
