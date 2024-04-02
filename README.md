@@ -6,6 +6,7 @@
 ----------- backend --------------------------
 -> first goto backend cd book-review-api and run npm i.
 -> create mongodb cluster on https://www.mongodb.com/atlas/database with your account.
+-> there is one sample file sample-books.json for storing book details in mongodb. please looked into that and store information accordingly.
     1) in app.js there is one uri in that change that uri with connection string. also set your username and password in connection string.
     2) now you have all the setup for backend. for run app use command npm start(used nodemon).
 
